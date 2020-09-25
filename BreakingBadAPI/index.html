@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    
+    <section id="navMenu">
+        <span id="navPersonnages" class="btn_menu">Personnages</span>
+        <span id="navEpisodes" class="btn_menu">Episodes</span>
+        <span id="navCitations" class="btn_menu">Citations</span>
+    </section>
+    <section id="section1">
+        <input type="search" placeholder="Recherche" class="search" id="search_name">
+        <div id="personnages"></div>
+    </section>
+    <section class="hidden" id="section2">
+        <input type="text" placeholder="Recherche" class="search" id="episodeSearch">
+        <div id="episodes"></div>
+    </section>
+    <section class="hidden" id="section3">
+        <div id="citationDay">
+            <h2> Citation du jour</h2>
+        </div>
+        <div id="quotegeneral">
+            <h2>Réplique des personnages :</h2>
+            <select name="Personnage" id="select-personnage">
+                <option value="personnages">Personnages</option>
+            </select>
+            <div id="fullcitation"></div>
+        </div>
+        <div id="citation"></div>
+    </section>
+    <section class="hidden" id="section4">
+        <div id="personnagesolo"></div>
+    </section>
+    <script src="js/index.js"></script>
+</body>
+</html>

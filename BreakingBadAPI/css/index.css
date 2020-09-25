@@ -1,0 +1,125 @@
+.hidden {
+  display: none;
+}
+
+#navMenu {
+  height: 5vh;
+  width: 80vw;
+  border-bottom: solid 1px black;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 20px;
+}
+
+#navPersonnages {
+  margin: 5vw;
+}
+
+#navPersonnages:hover {
+  font-size: 30px;
+}
+
+#navEpisodes {
+  margin: 5vw;
+}
+
+#navEpisodes:hover {
+  font-size: 30px;
+}
+
+#navCitations {
+  margin: 5vw;
+}
+
+#navCitations:hover {
+  font-size: 30px;
+}
+#section1
+{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    text-align: center;
+}
+#personnages
+{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.listesPersonnages
+{
+    width: 26vw;
+    height: 40vh;
+    text-align: center;
+}
+img
+{
+ width: 20vw;
+ height: 30vh;
+
+}
+#episodes
+{
+  margin-top: 4vh;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.episodefull
+{
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  text-align: center;
+}
+.episodepersonnages
+{
+  text-align: center;
+  width: 20vw;
+}
+.titreEpisode
+{
+  text-align: center;
+  width: 20vw;
+}
+#section2
+{
+  text-align:center;
+  margin-left: 9vw;
+  margin-right: 9vw;
+}
+.search
+{
+  margin: 10vh;
+  width: 10vw;
+  height: 5vh;
+}
+#section3
+{
+  margin-top: 4vh;
+  text-align: center;
+}
+#fullcitation
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 9vw;
+  margin-right: 9vw;
+}
+.quote
+{
+  width: 36vw;
+  border: 1px solid black;
+  margin-top: 4vh;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  
+}
+h1{
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */

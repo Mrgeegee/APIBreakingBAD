@@ -1,0 +1,49 @@
+@import "variable";
+@import "typographie" ;
+
+.hidden
+{
+    display: none;
+}
+
+#navMenu
+{
+    height: 5vh;
+    width: 80vw;
+    border-bottom:solid 1px black;
+    margin-right: 10vw;
+    margin-left: 10vw;
+    text-align: center;
+    font-family: $typo;
+    font-size: $size;
+    color: $colormenu;
+}
+
+#navPersonnages
+{
+    margin: 5vw;
+}
+#navPersonnages:hover
+{
+    font-size: $sizehover;
+    color: $colorhovermenu;
+}
+#navEpisodes
+{
+    margin: 5vw;
+}
+#navEpisodes:hover
+{
+   font-size: $sizehover;
+   color: $colorhovermenu;
+}
+#navCitations
+{
+    margin: 5vw;
+}
+#navCitations:hover
+{
+    font-size: $sizehover;
+    color: $colorhovermenu;
+}
+
